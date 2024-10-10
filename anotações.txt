@@ -1,0 +1,16 @@
+- Existe uma API da Pravaler, que faz o envio da informação dos boletos pagos para baixa de pagamento, a ideia é que a API envie a notificação da baixa de pagamento para  o Lyceum e a baixa da mensalidade seja realizada via sistema. 
+
+O time da Pravaler vai enviar a documentação para podermos análisar, e vão estudar sobre como ficaria essa API para os alunos de contratação no modelo garantido. 
+
+O baixa de pagamento do aluno possuí juros e taxas pois o valor pago a Pravaler é diferente do valor do boleto gerado no Lyceum, colocar uma trava na API para receber apenas o valor do boleto e ignorar o valor a maior ex.: (Valor Baixa AP - Valor boleto = Saldo, Se Saldo > 0, ignorar pois são valores que ficam retidos para Pravaler)
+-----
+- Cancelamento, o aluno faz o cancelamento primeiro com a IEs e depois faz o cancelamento do financiamento com a Pravaler, a IEs passa  
+-----
+
+
+
+---> informação sai do scupus e faz a integração via API para o AVAP, esses dados são tratados, os dados que vão ser consumidos via BI são os dados do que estão no AVAP após a integração AVAP e Scopus.
+
+---> A API do AVAP ainda não está pronta, será definido um modelo de como será a exportação desses dados via API, apara que seja criada uma demo de como ficará a exposição desses dados via BI. 
+
+---> 
